@@ -15,6 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="@string/welcome_illustration"
         app:srcCompat="@drawable/image_welcome" />
 
     <TextView
@@ -24,6 +25,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
+        android:alpha="0"
         android:text="@string/title_welcome_page"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -43,6 +45,7 @@
         android:text="@string/message_welcome_page"
         android:textColor="@color/navi"
         android:textSize="14sp"
+        android:alpha="0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -57,6 +60,7 @@
         android:layout_marginEnd="16dp"
         android:backgroundTint="@color/navi"
         android:text="@string/login"
+        android:alpha="0"
         app:layout_constraintEnd_toStartOf="@+id/guidelineVertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/descTextView" />
@@ -71,6 +75,7 @@
         android:backgroundTint="@color/navi"
         android:text="@string/signup"
         app:layout_constraintEnd_toEndOf="parent"
+        android:alpha="0"
         app:layout_constraintStart_toStartOf="@+id/guidelineVertical"
         app:layout_constraintTop_toBottomOf="@+id/descTextView" />
 
